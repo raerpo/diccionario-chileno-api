@@ -9,7 +9,7 @@ fastify.get('/define/:word', function (request, reply) {
     });
 });
 
-fastify.listen(3000, function (err, address) {
+fastify.listen(process.env.PORT || 4000, function (err, address) {
     if (err) {
         fastify.log.error(err)
         process.exit(1)
