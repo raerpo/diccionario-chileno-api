@@ -1,0 +1,17 @@
+{
+  "name": "diccionario-chileno",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rafael Poveda",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.2.1",
+    "puppeteer": "^5.2.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
